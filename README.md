@@ -1,3 +1,6 @@
-# Connect and Collaborate
+# Cybersecurity Portfolio
 
-You can reach me at: jhjan1@yahoo.com
+This is a portfolio showcasing various projects and skills in Cybersecurity.
+
+## Contact
+- LinkedIn: [LinkedIn Profile](https://linkedin.com/in/joshjanssen-it)
