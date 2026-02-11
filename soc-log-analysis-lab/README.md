@@ -33,9 +33,9 @@ A SOC-style dashboard was created to monitor authentication failures, source IP 
 ```
 soc-log-analysis-lab/
 ├── README.md
-├── logs/
+├── Splunk Dashboards/
 ├── screenshots/
-└── report/
+└── Incident Report
 ```
 
 ## 🧠 What I Learned
