@@ -1,0 +1,24 @@
+# 🚨 Incident Report: Suspected Brute-Force Attack
+
+## Incident Summary
+Repeated failed authentication attempts were detected from an external IP address, targeting multiple user accounts within a short time window.
+
+## Detection Method
+SIEM log analysis using Splunk search queries and statistical correlation.
+
+## Timeline
+- 08:03 – Initial failed login attempt detected
+- 08:05 – Threshold exceeded indicating brute-force behavior
+
+## Indicators of Compromise (IOCs)
+- Source IP: 203.0.113.45
+- Targeted Accounts: admin, guest, root
+
+## Impact Assessment
+No confirmed account compromise detected. One successful login occurred after multiple failures, indicating potential credential exposure risk.
+
+## Recommended Mitigations
+- Block malicious IP addresses
+- Enforce account lockout policies
+- Implement Multi-Factor Authentication (MFA)
+- Increase monitoring for authentication anomalies
